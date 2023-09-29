@@ -12,4 +12,4 @@ sudo dnf erase -y *libreoffice* && sudo dnf autoremove
 #sudo dnf update -y && sudo dnf upgrade -y
 
 #sudo dnf install fedora-workstation-repositories && sudo dnf config-manager --set-enabled google-chrome
-#sudo dnf update -y && sudo dnf install -y ansible git google-chrome-stable vim && sudo dnf autoremove
+#sudo dnf update -y && sudo dnf install -y ansible git google-chrome-stable vim && sudo dnf autoremove -y
